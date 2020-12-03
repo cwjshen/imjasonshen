@@ -1,0 +1,47 @@
+.landing-section {
+    background-color: var(--clay);
+}
+
+.intro-title {
+    text-align: center;
+    font-family: Montserrat;	
+    color: white;
+    font-size: 48px;
+}
+
+.body-title {
+    text-align: center;
+    font-family: Montserrat;	
+    color: var(--clay);
+    font-size: 48px;	
+}
+
+.body-section {
+	background-color: white;
+}
+
+.icon-align {
+	text-align: right;
+}
+.underline {
+    border-bottom: 4px solid;	
+    border-bottom-color: var(--light-blue);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.summary-container {
+	width: 75%;
+}
+
+.socials-container {
+	width: 75%;
+}
+
+a:hover img {
+	opacity: 0.7;
+    border-bottom: 4px solid;	
+    border-bottom-color: var(--light-blue);
+    margin-bottom: -4px; /* prevents movement after the new border appears on hover */
+}
