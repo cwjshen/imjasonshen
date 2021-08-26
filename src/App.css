@@ -1,0 +1,46 @@
+:root {
+  --clay: #454c5d;
+  --light-blue: #7DADC0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+section {
+  background-color: lightgray;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13906842_10204917484496362_299197446037523784_n.jpg?_nc_cat=101&_nc_oc=AQnGesTzidP8doGH-mnWZdALaj4yl81dhwRwPMVb8GU6qs7jfw5IgyDulr6mXRyiQWM&_nc_ht=scontent-lga3-1.xx&oh=e67b6918925f693b032a250eabdddd39&oe=5DBDAEB6);
+}
